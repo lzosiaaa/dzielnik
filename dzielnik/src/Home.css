@@ -1,0 +1,15 @@
+.home-image-wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff; /* lub inny kolor tła */
+  }
+  
+  .home-image {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
+  }
